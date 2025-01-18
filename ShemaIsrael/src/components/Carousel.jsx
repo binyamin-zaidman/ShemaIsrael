@@ -11,21 +11,21 @@ const Carousel = () => {
         <div className="carousel-item active">
           <img
             src="/images/בארי.jpg"
-            className="w-100"
+            className="w-75"
             alt="First Slide"
           />
         </div>
         <div className="carousel-item">
           <img
             src="/images/רעים.webp"
-            className="w-100"
+            className="w-75"
             alt="Second Slide"
           />
         </div>
         <div className="carousel-item">
           <img
             src="/images/בארי.jpg"
-            className="w-100"
+            className="w-75"
             alt="Third Slide"
           />
         </div>
