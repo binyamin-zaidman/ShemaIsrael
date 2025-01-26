@@ -1,15 +1,16 @@
 import React from "react";
+import "../styles/Navbar.css";
+import "../styles/colors.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top bg-primary-subtle">
+    <nav className="navbar navbar-expand-lg bg-color-gradient mb-3">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
             src="/images/logo.jpg"
             alt="Bootstrap"
-            width="30"
-            height="24"
+            width="50"
           />
         </a>
         <button
@@ -26,18 +27,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active text-primary" href="#">
+              <a className="nav-link active text-white" href="#">
                 קצת עלינו
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active text-primary" href="#">
+              <a className="nav-link active text-white" href="#">
                 לתרומה
               </a>
             </li>
           </ul>
         </div>
       </div>
+      <img src="/images/yizkor-22.jpg" className="yizkorImg" alt="yizkor" />
     </nav>
   );
 };
