@@ -4,7 +4,7 @@ import "../styles/colors.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg sticky-top bg-color-gradient mb-3">
+    <nav className="navbar navbar-expand-lg bg-color-gradient mb-3">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
