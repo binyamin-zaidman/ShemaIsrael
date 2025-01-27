@@ -1,6 +1,6 @@
 import './App.css'
 import Carousel from './components/Carousel'
-import Context from './components/Context'
+import Context from './components/context'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 

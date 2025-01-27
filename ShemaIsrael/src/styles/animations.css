@@ -1,30 +1,91 @@
-.leSnake span { animation: leSnake 1.5s ease-in-out; animation-iteration-count: infinite }
+.leSnake span {
+    animation: leSnake 1.5s ease-in-out;
+    animation-iteration-count: infinite
+}
+
 @keyframes leSnake {
-    from, to { transform: translateY(0px) }
-    50% { transform: translateY(30px) }
+
+    from,
+    to {
+        transform: translateY(0px)
+    }
+
+    50% {
+        transform: translateY(30px)
+    }
 }
 
-.typing {
-    width: 473px;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid #7E2EA0;
-    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
-}
-@keyframes typing {
-    from { width: 0 }
-}
-@keyframes cursor {
-    50% { border-color: transparent }
+.hu__hu__ {
+    animation: hu__hu__ infinite 3s ease-in-out
 }
 
-.hu__hu__ { animation: hu__hu__ infinite 3s ease-in-out }
 @keyframes hu__hu__ {
-    50% { transform: translateY(20px) }
+    40% {
+        transform: translateY(20px)
+    }
 }
-.effect3d { animation-name: effect3d }
+
+.effect3d {
+    animation-name: effect3d
+}
+
 @keyframes effect3d {
     to {
         text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15)
+    }
+}
+
+.typing {
+    display: inline-block;
+    width: 90%;
+    max-width: 473px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end), cursor 0.5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      max-width: 0;
+    }
+    to {
+      max-width: 90%;
+    }
+  }
+  
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+.bg-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+.pushReleaseFromRight {
+    animation-name: pushReleaseFromRight
+}
+
+@keyframes pushReleaseFromRight {
+    from {
+        transform: translateX(100%)
+    }
+
+    40% {
+        transform: translateX(-60px)
+    }
+}
+
+.zoomIn {
+    animation-name: zoomIn
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(3);
+        opacity: 0;
     }
 }
