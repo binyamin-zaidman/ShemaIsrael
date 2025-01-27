@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zeakat-shema-israel.vercel.app/sitemap.xml
