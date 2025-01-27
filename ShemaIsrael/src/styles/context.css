@@ -1,0 +1,19 @@
+.ExplanatoryTitle{
+    height: 4rem;
+}
+.bg-image{
+    background-image: url('../images/cars.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.7;
+    height: 100vh;
+}
+#text-top{
+    font-size: 2rem;
+    color: rgb(120, 46, 12);
+    background-color: rgba(240, 248, 255, 0.721);
+    text-align: center;
+    padding-top: 10rem;
+}
