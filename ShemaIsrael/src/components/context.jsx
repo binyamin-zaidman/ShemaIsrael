@@ -5,7 +5,7 @@ import "../styles/context.css";
 import ServiceCard from "./ServiceCard";
 const Context = () => {
   return (
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="50" tabIndex="0" className="scroll-container">
+    <div  data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="50" tabIndex="0" className="scroll-container">
       <div className="bg-image w-100 d-flex justify-content-center align-items-center mt-5">
         <h2 className="fs-5 fw-normal text-center p-5 d-flex flex-column" id="text-top">
           בבוקר שבת, שמחת תורה ה'תשפ"ד, (7.10.23) החלה מתקפת הפתע במטח ירי רקטי מסיבי מתמשך וחריג בהיקפו, של אלפי רקטות ופצצות מרגמה על אזורים נרחבים בישראל. בחסות המטחים חדרו – יבשתית, אווירית וימית – כ-6,000 מחבלים לשטח ישראל. הם תקפו והשתלטו על בסיסי צה"ל ומוצביו. בד בבד הם חדרו ליישובים אזרחיים, כבשו את חלקם, תקפו, רצחו וחטפו כ-1,450 מתושביהם, וגררו את ישראל למלחמה הארוכה ביותר בתולדות מדינת ישראל.

@@ -42,27 +42,28 @@
     overflow: hidden;
     white-space: nowrap;
     animation: typing 4s steps(40, end), cursor 0.5s step-end infinite;
-  }
-  
-  @keyframes typing {
+}
+
+@keyframes typing {
     from {
-      max-width: 0;
+        max-width: 0;
     }
+
     to {
-      max-width: 90%;
+        max-width: 90%;
     }
-  }
-  
-  @keyframes cursor {
+}
+
+@keyframes cursor {
     50% {
-      border-color: transparent;
+        border-color: transparent;
     }
-  }
-  
+}
+
 .bg-image {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 .pushReleaseFromRight {
@@ -88,4 +89,20 @@
         transform: scale(3);
         opacity: 0;
     }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-div {
+    animation: fadeIn 1.5s ease-in-out;
 }
