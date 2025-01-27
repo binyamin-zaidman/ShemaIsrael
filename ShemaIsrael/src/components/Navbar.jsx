@@ -9,7 +9,7 @@ const Navbar = () => {
           <img
             src="/images/logo.jpg"
             alt="logo"
-            width="50"
+            width="65"
             className="rounded" 
           />
         <button

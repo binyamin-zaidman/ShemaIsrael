@@ -2,106 +2,52 @@ import React from "react";
 import "../styles/colors.css";
 import "../styles/animations.css";
 import "../styles/context.css";
-
-const ServiceCard = ({ title, description }) => (
-  <div className="col-8 col-md-6 col-lg-6 p-3">
-    <div className="rounded p-3 h-100 bg-white shadow bg-color-gradient fade-in">
-      <h2 className="text-white">{title}</h2>
-      {description && <p className="text-white">{description}</p>}
-    </div>
-  </div>
-);
-
+import ServiceCard from "./ServiceCard";
 const Context = () => {
   return (
-    <div   data-bs-spy="scroll"
-    data-bs-target="#navbar-example"
-    data-bs-offset="50"
-    tabIndex="0"
-    className="scroll-container"
-    >
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="50" tabIndex="0" className="scroll-container">
       <div className="bg-image w-100 d-flex justify-content-center align-items-center mt-5">
-        <h2 className=" w-50 p-2 fs-5 fw-normal" id="text-top">
-          בבוקר שבת, שמחת תורה ה'תשפ"ד, (7.10.23) החלה מתקפת הפתע במטח ירי רקטי
-          מסיבי מתמשך וחריג בהיקפו, של אלפי רקטות ופצצות מרגמה על אזורים נרחבים
-          בישראל. בחסות המטחים חדרו – יבשתית, אווירית וימית – כ-6,000 מחבלים
-          לשטח ישראל. הם תקפו והשתלטו על בסיסי צה"ל ומוצביו. בד בבד הם חדרו
-          ליישובים אזרחיים, כבשו את חלקם, תקפו, רצחו וחטפו כ-1,450 מתושביהם,
-          וגררו את ישראל למלחמה הארוכה ביותר בתולדות מדינת ישראל.
+        <h2 className="fs-5 fw-normal text-center p-5 d-flex flex-column" id="text-top">
+          בבוקר שבת, שמחת תורה ה'תשפ"ד, (7.10.23) החלה מתקפת הפתע במטח ירי רקטי מסיבי מתמשך וחריג בהיקפו, של אלפי רקטות ופצצות מרגמה על אזורים נרחבים בישראל. בחסות המטחים חדרו – יבשתית, אווירית וימית – כ-6,000 מחבלים לשטח ישראל. הם תקפו והשתלטו על בסיסי צה"ל ומוצביו. בד בבד הם חדרו ליישובים אזרחיים, כבשו את חלקם, תקפו, רצחו וחטפו כ-1,450 מתושביהם, וגררו את ישראל למלחמה הארוכה ביותר בתולדות מדינת ישראל.
           <br />
-          <span className="fs-4 fw-bold">
-            עמותת זעקת שמע ישראל נוסדה בכדי ליתן הנצחה וזיכרון לשבר ולאסון שעטף
-            את עם ישראל למסירות הנפש של אלו שנרצחו רק בשל היותם יהודים ומנגד
-            לגבורה ולתקומה שקרתה דווקא מתוך החושך
+          <span className="fs-4 fw-bold mt-3">
+            עמותת זעקת שמע ישראל נוסדה בכדי ליתן הנצחה וזיכרון לשבר ולאסון שעטף את עם ישראל למסירות הנפש של אלו שנרצחו רק בשל היותם יהודים ומנגד לגבורה ולתקומה שקרתה דווקא מתוך החושך
           </span>
         </h2>
       </div>
       <div className="w-100 d-flex justify-content-center align-items-center mt-3">
-        <h2 className="ExplanatoryTitle cssanimation typing rounded bg-color-gradient text-white p-2">
+        <h2 className="ExplanatoryTitle cssanimation zoomIn rounded bg-color-gradient text-white p-2">
           ?מה אנחנו מציעים
         </h2>
       </div>
-
-      <div className="row p-3 mt-2 m-0">
-        <ServiceCard
-          title="סיורים מודרכים"
-          description="קבוצות גדולות וקטנות"
-        />
-        <ServiceCard
-          title="סיורי בוטיק"
-          description="אפשרות לנהיגה עצמית ברכבים פרטיים"
-        />
+      <div className="row p-3 mt-2 m-0 d-flex justify-content-center">
+        <ServiceCard title="סיורים מודרכים" description="קבוצות גדולות וקטנות" />
+        <ServiceCard title="סיורי בוטיק" description="אפשרות לנהיגה עצמית ברכבים פרטיים" />
         <ServiceCard title="הרצאות" description="האנשים שמאחורי הסיפורים" />
-        <ServiceCard
-          title="פאנלים"
-          description="בהשתתפות אלו שחוו את האסון מקרוב"
-        />
+        <ServiceCard title="פאנלים" description="בהשתתפות אלו שחוו את האסון מקרוב" />
       </div>
-
       <div className="w-100 mt-5">
         <div className="d-flex justify-content-center align-items-center">
-          <h2 className="ExplanatoryTitle cssanimation typing rounded bg-color-gradient text-white p-2">
+          <h2 className="ExplanatoryTitle cssanimation zoomIn rounded bg-color-gradient text-white p-2">
             ?למה דווקא אנחנו
           </h2>
         </div>
       </div>
       <ul className="list-group w-100 p-2">
         <li className="mb-3 list-group-item text-end mb-0 bg-color-gradient text-white border-bottom-0">
-          <p className="fw-bold fs-4">
-            מדריכים מקצועיים
-            <span className="fw-normal fs-5">
-              {" "}
-              בעלי ידע רחב במאורעות שהתרחשו, בסיפורים האישיים ובנקודות
-              ההתרחשויות
-            </span>
-          </p>
+          <p className="fw-bold fs-4"> מדריכים מקצועיים <span className="fw-normal fs-6"> בעלי ידע רחב במאורעות שהתרחשו, בסיפורים האישיים ובנקודות ההתרחשויות </span> </p>
         </li>
         <li className="mb-3 list-group-item text-end mb-0 bg-color-gradient text-white border-bottom-0 ">
-          <p className="fw-bold fs-4">
-            חוויה אישית{" "}
-            <span className="fw-normal fs-5">
-              מפגשים עם ניצולים והרצאות מרתקות
-            </span>
-          </p>
+          <p className="fw-bold fs-4"> חוויה אישית <span className="fw-normal fs-6"> מפגשים עם ניצולים והרצאות מרתקות </span> </p>
         </li>
         <li className="mb-3 list-group-item text-end mb-0 bg-color-gradient text-white border-bottom-0">
-          <p className="fw-bold fs-4">
-            גמישות{" "}
-            <span className="fw-normal fs-5">
-              סיורים קבוצתיים ופרטיים אפשרות לרכבים פרטיים
-            </span>
-          </p>
+          <p className="fw-bold fs-4"> גמישות <span className="fw-normal fs-6"> סיורים קבוצתיים ופרטיים אפשרות לרכבים פרטיים </span> </p>
         </li>
         <li className="mb-3 list-group-item text-end mb-0 bg-color-gradient text-white border-bottom-0">
-          <p className="fw-semibold  fs-4">
-            התאמה למגזר החרדי{" "}
-            <span className="fw-normal fs-5">
-              אנחנו היחידים שהתאמנו עבור המגזר החרדי את המסלול שיהיה נקי מבחינה
-              רוחנית ועוצמתי מבחינה רגשית
-            </span>
-          </p>
+          <p className="fw-semibold fs-4"> התאמה למגזר החרדי <span className="fw-normal fs-6"> אנחנו היחידים שהתאמנו עבור המגזר החרדי את המסלול שיהיה נקי מבחינה רוחנית ועוצמתי מבחינה רגשית </span> </p>
         </li>
       </ul>
+      
     </div>
   );
 };
