@@ -32,7 +32,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link active text-white m-3"
-                href="https://www.guidestar.org.il/organization/580809119"
+                href="https://docs.google.com/forms/d/1TcC48PyccB1fzKGKCm3QeqfLbDSYJgkxgtnVh8GO48E"
                 target="_blank"
               >
                 ליצירת קשר

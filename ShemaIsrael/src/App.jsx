@@ -11,6 +11,7 @@ function App() {
       <div className="callout w-100">
       <Navbar />
       <Context/>
+      <Carousel/>
       <Footer />
       </div>
     </>
