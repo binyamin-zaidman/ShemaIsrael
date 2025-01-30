@@ -1,49 +1,50 @@
 import React from "react";
 import "../styles/colors.css";
+import "../styles/carousel.css";
 
 const Carousel = () => {
   return (
+    <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
+      <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2">
+        בואו לראות – סיורים שמשאירים חותם{" "}
+      </h2>
       <div
-        id="carouselExampleFade"
-        className="carousel slide carousel-fade"
+        id="carouselExampleSlidesOnly"
+        className="carousel slide w-100"
         data-bs-ride="carousel"
       >
-        <div className="carousel-inner object-fit-scale ratio ratio-16x9">
+        <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/images/בארי.jpg" className="w-25" alt="First Slide" />
+            <img
+              src="../public/images/IMG_0197.JPG"
+              className="d-block w-100"
+              alt="visitImage"
+            />
           </div>
           <div className="carousel-item">
-            <img src="/images/רעים.webp" className="w-25" alt="Second Slide" />
+            <img
+              src="../public/images/IMG_0211.JPG"
+              className="d-block w-100"
+              alt="visitImage"
+            />
           </div>
           <div className="carousel-item">
-            <img src="/images/בארי.jpg" className="w-25" alt="Third Slide" />
+            <img
+              src="../public/images/IMG_0215.JPG"
+              className="d-block w-100"
+              alt="visitImage"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="../public/images/IMG_0220.JPG"
+              className="d-block w-100 "
+              alt="visitImage"
+            />
           </div>
         </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
+    </div>
   );
 };
 
