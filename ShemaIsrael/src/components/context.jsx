@@ -32,8 +32,8 @@ const Context = () => {
           ?מה אנחנו מציעים
         </h2>
       </div>
-      <div className="row p-3 mt-2 m-0 d-flex justify-content-center my-animation ">
-        <ServiceCard title="סיורים מודרכים" description="קבוצות גדולות וקטנות" />
+      <div className="row p-3 mt-2 m-0 d-flex justify-content-center my-animation">
+        <ServiceCard title="סיורים מודרכים" description="קבוצות גדולות וקטנות"  />
         <ServiceCard title="סיורי בוטיק" description="אפשרות לנהיגה עצמית ברכבים פרטיים" />
         <ServiceCard title="הרצאות" description="האנשים שמאחורי הסיפורים" />
         <ServiceCard title="פאנלים" description="בהשתתפות אלו שחוו את האסון מקרוב" />
@@ -45,7 +45,7 @@ const Context = () => {
           </h2>
         </div>
       </div>
-      <ul className="list-group w-100 p-2">
+      <ul className="list-group w-100 p-2 mb-5">
         <li className="mb-3 list-group-item text-end mb-0 bg-color-gradient text-white border-bottom-0" data-aos="fade-up">
           <p className="main-title fs-4"> התאמה למגזר החרדי <span className="main-title fw-normal fs-6"> אנחנו היחידים שהתאמנו עבור המגזר החרדי את המסלול שיהיה נקי מבחינה רוחנית ועוצמתי מבחינה רגשית </span> </p>
         </li>
