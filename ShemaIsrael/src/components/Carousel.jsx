@@ -16,28 +16,28 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./public/images/IMG_0197.JPG"
+              src="./images/IMG_0215.JPG"
               className="d-block w-100"
               alt="visitImage"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./public/images/IMG_0211.JPG"
+              src="./images/IMG_1901.JPG"
               className="d-block w-100"
               alt="visitImage"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./public/images/IMG_0215.JPG"
+              src="./images/IMG_0197.JPG"
               className="d-block w-100"
               alt="visitImage"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./public/images/IMG_0220.JPG"
+              src="./images/IMG_0220.JPG"
               className="d-block w-100 "
               alt="visitImage"
             />
