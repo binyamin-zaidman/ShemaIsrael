@@ -19,14 +19,14 @@ const Carousel = () => {
               src="./images/IMG_0215.JPG"
               className="d-block w-100"
               alt="visitImage"
-              />
+            />
           </div>
           <div className="carousel-item">
             <img
               src="./images/IMG_1901.JPG"
               className="d-block w-100"
               alt="visitImage"
-              />
+            />
           </div>
           <div className="carousel-item">
             <img
