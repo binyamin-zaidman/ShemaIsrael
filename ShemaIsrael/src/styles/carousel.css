@@ -1,7 +1,17 @@
-.carousel-item img{
+.carousel-item img {
     width: 70vw;
     height: 70vh;
     object-fit: cover;
-    border: 10px sienna solid;
-    border-radius: 20px;
+    border: 7px sienna solid;
+    border-radius: 15px;
 }
+@keyframes slowPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  .grow-shrink {
+    animation: slowPulse 3s infinite ease-in-out;
+  }
+  

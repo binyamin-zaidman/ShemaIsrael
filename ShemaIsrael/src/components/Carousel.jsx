@@ -5,12 +5,12 @@ import "../styles/carousel.css";
 const Carousel = () => {
   return (
     <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
-      <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2">
+      <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-3 grow-shrink">
         בואו לראות – סיורים שמשאירים חותם{" "}
       </h2>
       <div
         id="carouselExampleSlidesOnly"
-        className="carousel slide w-100"
+        className="carousel slide w-75"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
