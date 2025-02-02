@@ -5,7 +5,7 @@ import "../styles/carousel.css";
 const Carousel = () => {
   return (
     <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
-      <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-3 grow-shrink">
+      <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-4 grow-shrink">
         בואו לראות – סיורים שמשאירים חותם{" "}
       </h2>
       <div
