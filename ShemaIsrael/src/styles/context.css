@@ -1,7 +1,8 @@
-.ExplanatoryTitle{
+.ExplanatoryTitle {
     height: 4rem;
 }
-.bg-image{
+
+.bg-image {
     background-image: url('../images/cars.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,23 +11,35 @@
     opacity: 0.9;
     height: 100vh;
 }
-#text-top{
+
+#text-top {
     font-size: 2rem;
     color: rgb(120, 46, 12);
     background-color: rgba(240, 248, 255, 0.792);
     text-align: center;
     padding-top: 10rem;
 }
-.main-title{
+
+.main-title {
     font-family: 'Heebo', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
 @keyframes my-animation {
     0% {
         transform: translateY(20px);
     }
+
     100% {
         transform: translateY(0px);
     }
+}
+
+@media screen and (min-width: 768px) {
+    #text-top {
+        font-size: 1.3rem !important; 
+        padding: 2.5rem !important;
+    }
+    
 }
