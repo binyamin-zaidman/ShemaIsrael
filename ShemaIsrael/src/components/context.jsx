@@ -30,21 +30,14 @@ const Context = () => {
           וגררו את ישראל למלחמה הארוכה ביותר בתולדות מדינת ישראל
           <br />
           <span className="fs-4 fw-bold mt-3">
-            עמותת זעקת שמע ישראל נוסדה בכדי ליתן הנצחה וזיכרון לשבר ולאסון שעטף
+            עמותת "זעקת שמע ישראל" נוסדה בכדי ליתן הנצחה וזיכרון לשבר ולאסון שעטף
             את עם ישראל למסירות הנפש של אלו שנרצחו רק בשל היותם יהודים ומנגד
             לגבורה ולתקומה שקרתה דווקא מתוך החושך
           </span>
         </h2>
       </div>
 
-      <div
-        className="w-100 d-flex justify-content-center align-items-center mt-3"
-        data-aos="zoom-in"
-      >
-        <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2">
-          ?מה אנחנו מציעים
-        </h2>
-      </div>
+     
       <div className="row p-3 mt-2 m-0 d-flex justify-content-center my-animation">
         <ServiceCard
           title="סיורים מודרכים"
@@ -61,11 +54,7 @@ const Context = () => {
         />
       </div>
       <div className="w-100 mt-5" data-aos="zoom-in-up">
-        <div className="d-flex justify-content-center align-items-center">
-          <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2">
-            ?למה דווקא אנחנו
-          </h2>
-        </div>
+      
       </div>
       <ul className="list-group w-100 p-2 mb-5">
         <li
