@@ -5,9 +5,13 @@ import "../styles/carousel.css";
 const Carousel = () => {
   return (
     <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
-      <a href="https://docs.google.com/forms/d/1TcC48PyccB1fzKGKCm3QeqfLbDSYJgkxgtnVh8GO48E" target="_blank"><h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-4 grow-shrink">
-        בואו לראות – סיורים שמשאירים חותם{" "}
-      </h2>
+      <a
+        href="https://docs.google.com/forms/d/1TcC48PyccB1fzKGKCm3QeqfLbDSYJgkxgtnVh8GO48E"
+        target="_blank"
+      >
+        <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-4 grow-shrink">
+          בואו לראות – סיורים שמשאירים חותם{" "}
+        </h2>
       </a>
       <div
         id="carouselExampleSlidesOnly"
