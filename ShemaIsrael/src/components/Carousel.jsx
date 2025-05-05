@@ -9,7 +9,7 @@ const Carousel = () => {
         href="https://docs.google.com/forms/d/1TcC48PyccB1fzKGKCm3QeqfLbDSYJgkxgtnVh8GO48E"
         target="_blank"
       >
-        <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-4 grow-shrink">
+        <h2 className="ExplanatoryTitle rounded bg-color-gradient text-white p-2 mb-4 ">
           בואו לראות – סיורים שמשאירים חותם{" "}
         </h2>
       </a>
@@ -21,28 +21,28 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./images/IMG_0215.JPG"
+              src="./images/תמונה 333.png"
               className="d-block w-100"
               alt="visitImage"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./images/IMG_1901.JPG"
+              src="./images/תמונה 222.png"
               className="d-block w-100"
               alt="visitImage"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./images/IMG_9341.JPG"
+              src="./images/IMG_0688.JPG"
               className="d-block w-100"
               alt="visitImage"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="./images/IMG_0220.JPG"
+              src="./images/תמונה 111.png"
               className="d-block w-100 "
               alt="visitImage"
             />

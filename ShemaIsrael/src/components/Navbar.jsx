@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-color-gradient mb-1">
       <div className="container-fluid">
-        <img src="/images/logo.jpg" alt="logo" width="65" className="rounded" />
+        <img id="LogoImg" src="/images/logo.jpg" alt="logo" width="65" className="rounded" />
         <button
           className="navbar-toggler"
           type="button"
